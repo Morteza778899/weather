@@ -1,27 +1,131 @@
-# React + TypeScript + Vite
+# Weather Dashboard Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, feature-rich weather dashboard built with React, TypeScript, and Vite. This application provides real-time weather information with a beautiful UI, supporting multiple languages and themes.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌤️ Weather Information
+- Real-time weather data from Open-Meteo API
+- Current weather conditions
+- 14-day weather forecast
+- Detailed weather metrics:
+  - Temperature (current, min, max)
+  - Humidity
+  - Wind speed and direction
+  - Precipitation probability
+  - Apparent temperature
 
-## Expanding the ESLint configuration
+### 📊 Data Visualization
+- Interactive temperature charts
+- Daily forecast cards
+- Weather condition indicators
+- Scrollable content layout
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 🎨 User Interface
+- Modern, responsive design
+- Dark/Light theme support
+- Beautiful weather icons
+- Smooth animations and transitions
+- Accessibility features
 
-- Configure the top-level `parserOptions` property like this:
+### 🌐 Internationalization
+- Multi-language support (English/فارسی)
+- RTL/LTR layout switching
+- Automatic direction handling
+- Localized date formats
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### 👤 User Features
+- Simple authentication system
+- Persistent user preferences
+- City search and selection
+- Settings management
+
+## 🛠️ Technical Stack
+
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **State Management**: React Context API
+- **Styling**: Material-UI (MUI)
+- **Charts**: Recharts
+- **Internationalization**: i18next
+- **HTTP Client**: Axios
+- **Date Handling**: Custom Jalali date support
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Morteza778899/weather.git
+   cd weather
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 🏗️ Project Structure
+
 ```
+src/
+├── assets/          # Images and fonts
+├── components/      # Reusable UI components
+├── context/         # React Context providers
+│   ├── auth/        # Authentication context
+│   ├── language/    # Language switching
+│   ├── theme/       # Theme management
+│   └── weather/     # Weather data management
+├── hooks/           # Custom React hooks
+├── locales/         # Translation files
+├── pages/           # Application pages
+├── services/        # API services
+├── theme/           # MUI theme customization
+├── types/           # TypeScript type definitions
+└── utils/           # Utility functions
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🌍 Internationalization
+
+The application supports two languages:
+- English (en)
+- Persian/Farsi (fa)
+
+Language files are located in `src/locales/` directory.
+
+## 🎨 Theming
+
+The application uses a customized Material-UI theme with:
+- Light and dark mode support
+- Custom color palette
+- Responsive typography
+- RTL/LTR support
+- Custom component styling
+
+## 🔐 Authentication
+
+Simple authentication system with:
+- Username-based authentication
+- Local storage persistence
+- Protected routes
+- Login/logout functionality
+
+## 🌡️ Weather Data
+
+Weather data is fetched from the Open-Meteo API, providing:
+- Current weather conditions
+- 14-day forecast
+- Hourly predictions
+- Various weather metrics
+
+## 📱 Responsive Design
+
+The application is fully responsive and works on:
+- Desktop computers
+- Tablets
+- Mobile devices

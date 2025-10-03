@@ -1,0 +1,74 @@
+{
+  "COMMON": {
+    "LOGIN": "ورود",
+    "LOGOUT": "خروج",
+    "EXIT": "خروج",
+    "EMAIL": "ایمیل",
+    "PASSWORD": "رمز عبور",
+    "SUBMIT": "ارسال",
+    "WELCOME": "خوش آمدید",
+    "LANGUAGE": "زبان",
+    "ENTER_YOUR_NAME": "نام خود را وارد کنید",
+    "THEME": {
+      "LIGHT": "روشن",
+      "DARK": "تاریک"
+    },
+    "MODE": "حالت"
+  },
+  "DASHBOARD": {
+    "DAYS": {
+      "TODAY": "امروز",
+      "MON": "دوشنبه",
+      "TUE": "سه‌شنبه",
+      "WED": "چهارشنبه",
+      "THU": "پنج‌شنبه",
+      "FRI": "جمعه",
+      "SAT": "شنبه",
+      "SUN": "یکشنبه"
+    },
+    "MONTHS": {
+      "JAN": "دی",
+      "FEB": "بهمن",
+      "MAR": "اسفند",
+      "APR": "فروردین",
+      "MAY": "اردیبهشت",
+      "JUN": "خرداد",
+      "JUL": "تیر",
+      "AUG": "مرداد",
+      "SEP": "شهریور",
+      "OCT": "مهر",
+      "NOV": "آبان",
+      "DEC": "آذر"
+    },
+    "TITLE": "داشبورد آب و هوا",
+    "SEARCH_YOUR_LOCATION": "مکان مورد نظر را جستجو کنید",
+    "TEMPERATURE": "دما",
+    "HUMIDITY": "رطوبت",
+    "WIND_SPEED": "سرعت باد",
+    "PRECIPITATION": "بارش",
+    "MONDAY": "دوشنبه",
+    "DATE": "24 دی 1402",
+    "TIME": "11:45 ظهر",
+    "HIGH_LABEL": "بیشینه: {{label}} درجه",
+    "LOW_LABEL": "کمینه: {{label}} درجه",
+    "FEELS_LIKE": "دمای احساسی {{temp}} درجه",
+    "SAN_FRANCISCO": "سان فرانسیسکو",
+    "CLOUDY": "ابری",
+    "SUNNY": "آفتابی",
+    "RAINY": "بارانی",
+    "FEELS_LIKE_LABEL": "{{label}} درجه احساس می شود",
+    "AVERAGE_MONTHLY_TEMPERATURE": "میانگین دمای ماهانه",
+    "HOURLY_TEMPERATURE": "پیش‌بینی دمای ۲۴ ساعت آینده",
+    "14_DAYS_FORECAST": "پیش‌بینی ۱۴ روز آینده",
+    "2_WEEKS_FORECAST": "پیش بینی 2 هفته",
+    "COPYRIGHT": "همه حقوق این سایت برای شرکت مهندسی نادین صدر آریا محفوظ است.",
+    "CONTACT_US_LABEL": "تماس با ما: {{label}}",
+    "LOADING": "در حال بارگذاری..."
+  },
+  "ERRORS": {
+    "REQUIRED": "این فیلد الزامی است",
+    "INVALID_EMAIL": "لطفا یک ایمیل معتبر وارد کنید",
+    "INVALID_CREDENTIALS": "ایمیل یا رمز عبور نامعتبر است",
+    "FETCH_ERROR": "خطا در دریافت اطلاعات آب و هوا"
+  }
+}
