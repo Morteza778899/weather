@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import LOGO from "../../../assets/Logo.svg";
+import LOGO from "../../../assets/logo.svg";
 import { SettingsMenu } from "./components/SettingsMenu";
 import { useAuth } from "../../../context/auth";
 import { LocationSearch } from "./components/LocationSearch";
