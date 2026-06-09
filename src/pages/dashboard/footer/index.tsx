@@ -45,7 +45,7 @@ const Footer = () => {
         <Stack spacing={0.5} alignItems="center">
           <MailOutlineIcon />
           <Typography variant="body1">
-            {t("DASHBOARD.CONTACT_US_LABEL", { label: "info@nadin.ir" })}
+            {t("DASHBOARD.CONTACT_US_LABEL", { label: "info@test.come" })}
           </Typography>
         </Stack>
         <Stack spacing={0.5} alignItems="center">
